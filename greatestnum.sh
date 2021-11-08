@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 echo "enter three numbers"
 read num1 num2 num3
