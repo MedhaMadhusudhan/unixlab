@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 prod=1
 echo "enter number whose factorial is to be found"
