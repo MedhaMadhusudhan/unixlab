@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 echo "enter a number"
 read num
