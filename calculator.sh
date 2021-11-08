@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 echo "enter two numbers"
 read num1 num2
