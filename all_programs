@@ -37,3 +37,17 @@ else
 fi
 
 -----------------------------------------------------------------------
+if [ $# -le 0 ]; then
+	echo "not enough command line arguments"
+	exit 0
+fi
+num1=$1
+val=0
+while [ $num1 -gt 0 ]
+do
+	digit=`expr $num1 % 10`
+	val=`expr $val \* 10 + $digit`
+	num1=`expr $num1 / 10`
+done
+
+echo "the reversed number is : $val"
