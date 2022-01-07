@@ -12,7 +12,7 @@ int main(int argc, char* argv[]){
 		else
 			printf("Symbolic link created\n") ;
 	}else{
-		if((symlink(argv[1], argv[2])) == -1)
+		if((link(argv[1], argv[2])) == -1)
 			printf("Cannot create hard link\n") ;
 		else
 			printf("Hard link created\n") ;
