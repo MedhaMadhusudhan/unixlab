@@ -10,7 +10,7 @@ int main(int argc, char* argv[]){
 
 	int fd;
 	char buf[256];
-	if(argc != 2 && argc != 3){
+	if(argc != 2 || argc != 3){
 		printf("USAGE %s <file> [<arg>]\n",argv[0]);
 		return 0;
 	}
